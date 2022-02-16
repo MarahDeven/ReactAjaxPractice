@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import Weather from "./Weather";
 
 import "./App.css";
 
@@ -17,6 +18,7 @@ function App() {
         an h1 with the sentence "The temperature in city is something°C".
         Include it here
       </p>
+      <Weather city="New York" />
 
       <h3>Challenge 3</h3>
       <p>Use the OpenWeather API to get the city temperature in Celsius</p>
